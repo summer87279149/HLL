@@ -31,12 +31,7 @@
 @protocol TOCropViewControllerDelegate <NSObject>
 @optional
 
-/**
- Called when the user has committed the crop action, and provides just the cropping rectangle
- 
- @param image The newly cropped image.
- @param cropRect A rectangle indicating the crop region of the image the user chose (In the original image's local co-ordinate space)
- */
+
 - (void)cropViewController:(TOCropViewController *)cropViewController didCropImageToRect:(CGRect)cropRect angle:(NSInteger)angle;
 
 /**

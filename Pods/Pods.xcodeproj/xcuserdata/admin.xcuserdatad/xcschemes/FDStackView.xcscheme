@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '828827ED4BFEFA92E2BA2A925F8E9727'
-               BlueprintName = 'SDWebImage-Category'
+               BlueprintIdentifier = '91272223AF96E8FC18D74C611C4E7BA8'
+               BlueprintName = 'FDStackView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SDWebImage-Category.framework'>
+               BuildableName = 'FDStackView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

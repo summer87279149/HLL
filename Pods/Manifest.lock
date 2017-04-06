@@ -16,18 +16,11 @@ PODS:
     - AFNetworking/NSURLSession
   - DXPopover (0.1.1)
   - DZNEmptyDataSet (1.8.1)
+  - FDStackView (1.0)
   - JHUD (0.3.0)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
-  - MyLayout (1.2.6)
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
   - REFormattedNumberField (1.1.6)
   - RETableViewManager (1.7):
     - REFormattedNumberField (~> 1.1.5)
@@ -46,12 +39,11 @@ DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - DXPopover
   - DZNEmptyDataSet
+  - FDStackView (= 1.0)
   - JHUD
   - Masonry
   - MBProgressHUD (~> 1.0.0)
   - MJExtension
-  - MyLayout
-  - ReactiveCocoa (= 2.5)
   - RETableViewManager (~> 1.6)
   - SDCycleScrollView
   - SDWebImage-Category (~> 1.4)
@@ -61,12 +53,11 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
   JHUD: 17650f65045d9843a7ad19f6a0b1eac6c78a45d2
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  MyLayout: 95244f9d4e1dfcc0798581ff136eaa954c55291c
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
   RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
   REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
@@ -75,6 +66,6 @@ SPEC CHECKSUMS:
   SDWebImage-Category: 1f1c00880a538f7faf5b726e1559cf1ca555c553
   WMPageController: 2267f3b40620eb0a74abb19ee2a46ce1d7c61754
 
-PODFILE CHECKSUM: bfe886bd1aed651f0a029e6b3febe116f1649500
+PODFILE CHECKSUM: 3edcd5a3163dab730552a6351c64a06967d74264
 
 COCOAPODS: 1.2.0.beta.1

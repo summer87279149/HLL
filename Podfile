@@ -7,9 +7,8 @@ use_frameworks!
 
 pod 'MJExtension'
 pod 'SDWebImage-Category', '~> 1.4'
-pod 'ReactiveCocoa', '2.5'
+pod 'FDStackView', '1.0'
 pod 'AFNetworking', '~> 3.0'
-pod 'MyLayout'
 pod 'MBProgressHUD', '~> 1.0.0'
 pod 'Masonry'
 pod 'JHUD'
