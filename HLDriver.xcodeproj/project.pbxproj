@@ -274,6 +274,21 @@
 		848486751E961EA200762020 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484856D1E961EA100762020 /* TZProgressView.m */; };
 		848486761E961EA200762020 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484856F1E961EA100762020 /* TZVideoPlayerController.m */; };
 		848486771E961EA200762020 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 848485711E961EA100762020 /* UIView+Layout.m */; };
+		84A941B11E971E25002B325B /* VehicleTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A941B01E971E25002B325B /* VehicleTypeViewController.m */; };
+		84A941B61E97232D002B325B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A941B41E97232D002B325B /* LoginViewController.m */; };
+		84A941B71E97232D002B325B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A941B51E97232D002B325B /* LoginViewController.xib */; };
+		84A941BB1E972A81002B325B /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A941B91E972A81002B325B /* RegistViewController.m */; };
+		84A941BC1E972A81002B325B /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A941BA1E972A81002B325B /* RegistViewController.xib */; };
+		84A941C21E972CEF002B325B /* RegistBaseInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A941C01E972CEF002B325B /* RegistBaseInfoVC.m */; };
+		84A941C51E972D40002B325B /* BaseInfoIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A941C41E972D40002B325B /* BaseInfoIMG.png */; };
+		84A941C71E972DE1002B325B /* verifyCodeIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A941C61E972DE1002B325B /* verifyCodeIMG.png */; };
+		84A942AD1E973ED1002B325B /* defaultUserImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A942AC1E973ED1002B325B /* defaultUserImg.jpg */; };
+		84A942B21E975686002B325B /* uploadIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A942B11E975686002B325B /* uploadIMG.png */; };
+		84A942B61E97568D002B325B /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A942B41E97568D002B325B /* UploadViewController.m */; };
+		84A942BB1E975748002B325B /* uploadItemsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A942BA1E975748002B325B /* uploadItemsImage.png */; };
+		84A942BE1E975973002B325B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A942BD1E975973002B325B /* CollectionViewCell.m */; };
+		84A942D11E977E31002B325B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A942CF1E977E31002B325B /* HomeViewController.m */; };
+		84A942D21E977E31002B325B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A942D01E977E31002B325B /* HomeViewController.xib */; };
 		D0C18D42E3349946BBF24E11 /* Pods_HLDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A53738926F93B15F597B3D /* Pods_HLDriver.framework */; };
 /* End PBXBuildFile section */
 
@@ -815,6 +830,28 @@
 		848485701E961EA100762020 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		848485711E961EA100762020 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		848486781E961EDD00762020 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84A941AF1E971E25002B325B /* VehicleTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleTypeViewController.h; sourceTree = "<group>"; };
+		84A941B01E971E25002B325B /* VehicleTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleTypeViewController.m; sourceTree = "<group>"; };
+		84A941B31E97232D002B325B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		84A941B41E97232D002B325B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		84A941B51E97232D002B325B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		84A941B81E972A81002B325B /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		84A941B91E972A81002B325B /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		84A941BA1E972A81002B325B /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		84A941BF1E972CEF002B325B /* RegistBaseInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistBaseInfoVC.h; sourceTree = "<group>"; };
+		84A941C01E972CEF002B325B /* RegistBaseInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistBaseInfoVC.m; sourceTree = "<group>"; };
+		84A941C41E972D40002B325B /* BaseInfoIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaseInfoIMG.png; sourceTree = "<group>"; };
+		84A941C61E972DE1002B325B /* verifyCodeIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verifyCodeIMG.png; sourceTree = "<group>"; };
+		84A942AC1E973ED1002B325B /* defaultUserImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultUserImg.jpg; sourceTree = "<group>"; };
+		84A942B11E975686002B325B /* uploadIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadIMG.png; sourceTree = "<group>"; };
+		84A942B31E97568D002B325B /* UploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		84A942B41E97568D002B325B /* UploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		84A942BA1E975748002B325B /* uploadItemsImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadItemsImage.png; sourceTree = "<group>"; };
+		84A942BC1E975973002B325B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		84A942BD1E975973002B325B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		84A942CE1E977E31002B325B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		84A942CF1E977E31002B325B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		84A942D01E977E31002B325B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		A4DFC0B473A904FE36E04144 /* Pods-HLDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLDriver/Pods-HLDriver.release.xcconfig"; sourceTree = "<group>"; };
 		D4874D81B1DB83B730B85DB9 /* Pods-HLDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLDriver/Pods-HLDriver.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -852,6 +889,9 @@
 		848482F91E961E0B00762020 /* HLDriver */ = {
 			isa = PBXGroup;
 			children = (
+				8484851D1E961EA100762020 /* RequestManager */,
+				848485211E961EA100762020 /* Resource */,
+				848485231E961EA100762020 /* Vendors */,
 				848483111E961EA100762020 /* Class */,
 				848485721E961EA100762020 /* Others */,
 				848482FA1E961E0B00762020 /* Supporting Files */,
@@ -870,12 +910,13 @@
 		848483111E961EA100762020 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				84A942BF1E977CBA002B325B /* Home */,
+				84A941B21E972319002B325B /* LoginAndRegist */,
+				84A941AF1E971E25002B325B /* VehicleTypeViewController.h */,
+				84A941B01E971E25002B325B /* VehicleTypeViewController.m */,
+				848485181E961EA100762020 /* Common */,
 				848483121E961EA100762020 /* Base */,
 				848483191E961EA100762020 /* Categories */,
-				848485181E961EA100762020 /* Common */,
-				8484851D1E961EA100762020 /* RequestManager */,
-				848485211E961EA100762020 /* Resource */,
-				848485231E961EA100762020 /* Vendors */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -1923,7 +1964,8 @@
 			children = (
 				8484851E1E961EA100762020 /* XTHTTPRequestManager */,
 			);
-			path = RequestManager;
+			name = RequestManager;
+			path = Class/RequestManager;
 			sourceTree = "<group>";
 		};
 		8484851E1E961EA100762020 /* XTHTTPRequestManager */ = {
@@ -1940,12 +1982,18 @@
 			children = (
 				848485221E961EA100762020 /* Images */,
 			);
-			path = Resource;
+			name = Resource;
+			path = Class/Resource;
 			sourceTree = "<group>";
 		};
 		848485221E961EA100762020 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				84A942BA1E975748002B325B /* uploadItemsImage.png */,
+				84A942B11E975686002B325B /* uploadIMG.png */,
+				84A941C61E972DE1002B325B /* verifyCodeIMG.png */,
+				84A942AC1E973ED1002B325B /* defaultUserImg.jpg */,
+				84A941C41E972D40002B325B /* BaseInfoIMG.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -1958,7 +2006,8 @@
 				848485391E961EA100762020 /* SKFCamera */,
 				848485561E961EA100762020 /* TZImagePickerController */,
 			);
-			path = Vendors;
+			name = Vendors;
+			path = Class/Vendors;
 			sourceTree = "<group>";
 		};
 		848485241E961EA100762020 /* MBProgressHUD */ = {
@@ -2079,6 +2128,35 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		84A941B21E972319002B325B /* LoginAndRegist */ = {
+			isa = PBXGroup;
+			children = (
+				84A941B31E97232D002B325B /* LoginViewController.h */,
+				84A941B41E97232D002B325B /* LoginViewController.m */,
+				84A941B51E97232D002B325B /* LoginViewController.xib */,
+				84A941B81E972A81002B325B /* RegistViewController.h */,
+				84A941B91E972A81002B325B /* RegistViewController.m */,
+				84A941BA1E972A81002B325B /* RegistViewController.xib */,
+				84A941BF1E972CEF002B325B /* RegistBaseInfoVC.h */,
+				84A941C01E972CEF002B325B /* RegistBaseInfoVC.m */,
+				84A942B31E97568D002B325B /* UploadViewController.h */,
+				84A942B41E97568D002B325B /* UploadViewController.m */,
+				84A942BC1E975973002B325B /* CollectionViewCell.h */,
+				84A942BD1E975973002B325B /* CollectionViewCell.m */,
+			);
+			name = LoginAndRegist;
+			sourceTree = "<group>";
+		};
+		84A942BF1E977CBA002B325B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84A942CE1E977E31002B325B /* HomeViewController.h */,
+				84A942CF1E977E31002B325B /* HomeViewController.m */,
+				84A942D01E977E31002B325B /* HomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		B146A50A3E2C38E8BDAE5D9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2131,6 +2209,7 @@
 					848482F61E961E0B00762020 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = VK6VB86T3H;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -2158,14 +2237,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A942B21E975686002B325B /* uploadIMG.png in Resources */,
+				84A942BB1E975748002B325B /* uploadItemsImage.png in Resources */,
 				8484830A1E961E0B00762020 /* LaunchScreen.storyboard in Resources */,
 				848486701E961EA200762020 /* TZImagePickerController.bundle in Resources */,
+				84A941BC1E972A81002B325B /* RegistViewController.xib in Resources */,
+				84A941C51E972D40002B325B /* BaseInfoIMG.png in Resources */,
+				84A941C71E972DE1002B325B /* verifyCodeIMG.png in Resources */,
 				848486521E961EA200762020 /* MBProgressHUD.bundle in Resources */,
 				848483071E961E0B00762020 /* Assets.xcassets in Resources */,
+				84A942AD1E973ED1002B325B /* defaultUserImg.jpg in Resources */,
 				8484865D1E961EA200762020 /* SKFCamera.bundle in Resources */,
 				848486531E961EA200762020 /* MJRefresh.bundle in Resources */,
 				848483051E961E0B00762020 /* Main.storyboard in Resources */,
 				848486661E961EA200762020 /* TOCropViewControllerLocalizable.strings in Resources */,
+				84A941B71E97232D002B325B /* LoginViewController.xib in Resources */,
+				84A942D21E977E31002B325B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2255,6 +2342,7 @@
 				8484861C1E961EA200762020 /* UISearchBar+JKBlocks.m in Sources */,
 				848485F41E961EA200762020 /* UIFont+JKDynamicFontControl.m in Sources */,
 				848485E61E961EA200762020 /* UIButton+JKImagePosition.m in Sources */,
+				84A942BE1E975973002B325B /* CollectionViewCell.m in Sources */,
 				8484857B1E961EA100762020 /* NSManagedObjectContext+JKFetchRequestsConstructors.m in Sources */,
 				848485F81E961EA200762020 /* UIImage+JKBetterFace.m in Sources */,
 				848485CF1E961EA200762020 /* MKMapView+JKMoveLogo.m in Sources */,
@@ -2269,8 +2357,10 @@
 				848486451E961EA200762020 /* UIWebView+JKStyle.m in Sources */,
 				848486361E961EA200762020 /* UIView+JKShake.m in Sources */,
 				8484860D1E961EA200762020 /* UILabel+JKAutoSize.m in Sources */,
+				84A942B61E97568D002B325B /* UploadViewController.m in Sources */,
 				848485A31E961EA100762020 /* NSNumber+JKRound.m in Sources */,
 				848485931E961EA100762020 /* NSDictionary+JKMerge.m in Sources */,
+				84A941B11E971E25002B325B /* VehicleTypeViewController.m in Sources */,
 				848485881E961EA100762020 /* NSData+JKzlib.m in Sources */,
 				8484864E1E961EA200762020 /* CommonAPIConstant.m in Sources */,
 				8484865C1E961EA200762020 /* LLSimpleCamera.m in Sources */,
@@ -2294,6 +2384,7 @@
 				848485AE1E961EA100762020 /* NSObject+JKRuntime.m in Sources */,
 				848485B21E961EA200762020 /* NSString+JKContains.m in Sources */,
 				8484857F1E961EA100762020 /* NSArray+JKSafeAccess.m in Sources */,
+				84A941C21E972CEF002B325B /* RegistBaseInfoVC.m in Sources */,
 				848485801E961EA100762020 /* NSBundle+JKAppIcon.m in Sources */,
 				8484866B1E961EA200762020 /* TZAssetCell.m in Sources */,
 				848485821E961EA100762020 /* NSData+JKBase64.m in Sources */,
@@ -2351,6 +2442,7 @@
 				848485C01E961EA200762020 /* NSString+JKTrims.m in Sources */,
 				848485A01E961EA100762020 /* NSDecimalNumber+JKExtensions.m in Sources */,
 				848486221E961EA200762020 /* UITableViewCell+JKNIB.m in Sources */,
+				84A942D11E977E31002B325B /* HomeViewController.m in Sources */,
 				848486681E961EA200762020 /* UIImage+CropRotate.m in Sources */,
 				8484858B1E961EA100762020 /* NSDate+JKFormatter.m in Sources */,
 				848485751E961EA100762020 /* BaseViewController.m in Sources */,
@@ -2426,6 +2518,7 @@
 				8484858A1E961EA100762020 /* NSDate+JKExtension.m in Sources */,
 				848486391E961EA200762020 /* UIViewController+JKBackButtonItemTitle.m in Sources */,
 				8484863D1E961EA200762020 /* UIViewController+JKStoreKit.m in Sources */,
+				84A941B61E97232D002B325B /* LoginViewController.m in Sources */,
 				8484860B1E961EA200762020 /* UIImageView+JKReflect.m in Sources */,
 				848485CB1E961EA200762020 /* NSURLSession+JKSynchronousTask.m in Sources */,
 				848485AB1E961EA100762020 /* NSObject+JKGCD.m in Sources */,
@@ -2436,6 +2529,7 @@
 				848485E11E961EA200762020 /* UIBezierPath+JKThroughPointsBezier.m in Sources */,
 				848485E51E961EA200762020 /* UIButton+JKCountDown.m in Sources */,
 				848485E81E961EA200762020 /* UIButton+JKMiddleAligning.m in Sources */,
+				84A941BB1E972A81002B325B /* RegistViewController.m in Sources */,
 				848482FF1E961E0B00762020 /* AppDelegate.m in Sources */,
 				848485A21E961EA100762020 /* NSNumber+JKRomanNumerals.m in Sources */,
 				848485D11E961EA200762020 /* CAAnimation+JKEasingEquations.m in Sources */,
@@ -2605,6 +2699,8 @@
 			baseConfigurationReference = D4874D81B1DB83B730B85DB9 /* Pods-HLDriver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = VK6VB86T3H;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HLDriver/Others/PrefixHeader.pch";
@@ -2613,6 +2709,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.houolaladriver.HLDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLDriver/Class/HLDriver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -2621,6 +2720,8 @@
 			baseConfigurationReference = A4DFC0B473A904FE36E04144 /* Pods-HLDriver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = VK6VB86T3H;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HLDriver/Others/PrefixHeader.pch";
@@ -2629,6 +2730,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.houolaladriver.HLDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLDriver/Class/HLDriver-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

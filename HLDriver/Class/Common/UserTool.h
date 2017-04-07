@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UserTool : NSObject
+//判断用户名
++(BOOL)isNameValid:(NSString *)name;
 //正则判断纯数字
 + (BOOL)validateNumber:(NSString *) textString;
 // 匹配手机号
@@ -24,4 +26,9 @@
 + (BOOL)deptIdInputShouldAlphaNum:(NSString *)str;
 //匹配身份证
 + (BOOL)isIdentityCard:(NSString *)IDCardNumber;
+//验证码CD
++(void)codeCountDownTimerWith:(UIButton*)sender;
+//车牌号
++(BOOL)validateCarNo:(NSString*)carNo;
+
 @end

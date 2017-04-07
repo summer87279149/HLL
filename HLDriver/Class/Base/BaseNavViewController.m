@@ -16,10 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSDictionary *dict = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
+    NSDictionary *dict = [NSDictionary dictionaryWithObject:[UIColor orangeColor] forKey:NSForegroundColorAttributeName];
     self.navigationBar.titleTextAttributes = dict;
-    self.navigationBar.barTintColor = [UIColor blackColor];
-    self.navigationBar.tintColor = [UIColor whiteColor];
+//    self.navigationBar.barTintColor = [UIColor blackColor];
+//    self.navigationBar.tintColor = [UIColor whiteColor];
 }
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count >= 1) {
