@@ -5,6 +5,8 @@
 //  Created by Admin on 2017/4/6.
 //  Copyright © 2017年 Admin. All rights reserved.
 //
+#import "HomeViewController.h"
+#import "SettingViewController.h"
 #import "VehicleTypeViewController.h"
 #import "BaseNavViewController.h"
 #import "AppDelegate.h"
@@ -20,7 +22,7 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    BaseNavViewController *nav = [[BaseNavViewController alloc]initWithRootViewController:[VehicleTypeViewController new]];
+    BaseNavViewController *nav = [[BaseNavViewController alloc]initWithRootViewController:[HomeViewController new]];
     self.window.rootViewController=nav;
     [self.window makeKeyAndVisible];
 

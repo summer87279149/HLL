@@ -57,6 +57,7 @@
             self.callBack(indexPath);
             [self.navigationController popViewControllerAnimated:YES];
         }
+        
     }
 }
 

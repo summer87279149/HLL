@@ -11,6 +11,7 @@
 typedef void(^getImageBlock)(NSData*data);
 
 @interface UIViewController (CameraAndPhoto)<UINavigationControllerDelegate, UIImagePickerControllerDelegate,UITextFieldDelegate,UIScrollViewDelegate,UIActionSheetDelegate,TOCropViewControllerDelegate>
+
 @property (nonatomic, copy) getImageBlock xt_block;
 
 /**
