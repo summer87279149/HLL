@@ -6,6 +6,7 @@
 //  Created by Admin on 2017/4/8.
 //  Copyright © 2017年 Admin. All rights reserved.
 //
+#import "SettingCenterViewController.h"
 #import "AchievementViewController.h"
 #import "DriverChannelViewController.h"
 #import "MyOrderViewController.h"
@@ -30,7 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"个人中心";
     self.automaticallyAdjustsScrollViewInsets = YES;
     [self.view addSubview:self.tableview];
 }
@@ -68,7 +69,7 @@
         case 1:{VC = [[MyOrderViewController alloc]init];}break;
         case 2:{VC = [[DriverChannelViewController alloc]init];}break;
         case 3:{VC = [[AchievementViewController alloc]init];}break;
-            
+        case 4:{VC = [[SettingCenterViewController alloc]init];}break;
         default: break;
     }
     [self.navigationController pushViewController:VC animated:YES];

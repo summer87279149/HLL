@@ -100,4 +100,5 @@
 #import "SKFCamera.h"
 #import "CommonAPIConstant.h"
 #import "UserTool.h"
+#import "AAGlobalMacro.h"
 #endif /* PrefixHeader_pch */
